@@ -39,7 +39,7 @@ O veículo utilizado contém diversos atributos, que são:
 - Doze (12) sensores de distância, que identificam obstáculos ao redor do veículo
 O conjunto destes atributos em um determinado tempo t é chamado de estado do veículo. Os estados serão gerados 15 vezes por segundo e serão disponibilizados ao sistema que irá controlar o veículo.
 
-![Veículo](https://github.com/adrianolyrio/ann_ga/screenshot/car_sensor.png)
+![Veículo](https://github.com/adrianolyrio/ann_ga/blob/master/screenshot/car_sensor.png?raw=true)
 
 O controle do veículo irá consistir em 4 ações distintas que são:
 - Acelerar
