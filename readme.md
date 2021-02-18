@@ -7,8 +7,7 @@
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-<!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
-- [Link para o código](https://github.com/link_do_repositorio). <!-- caso não aplicável, remover esta linha -->
+- [Link para o código](https://github.com/adrianolyrio/ann_ga). 
 
 ---
 
@@ -18,19 +17,41 @@ Este trabalho tem como objetivo apresentar a aplicação de um modelo de Intelig
 No estudo, foi utilizado Algoritmo Genético junto com a aplicação de Redes Neurais como modelo de Inteligência Artificial. Ambos os modelos são inspirados na biologia animal, onde as Redes Neurais são baseadas no modelo de neurônios do cérebro biológico e o Algoritmo Genético é baseado na biologia evolutiva cromossomática como hereditariedade, mutação, seleção natural e recombinação.
 O ambiente digital que foi criado e utilizado para treinar o modelo de Inteligência Artificial é um jogo de Corrida, no qual o jogador deve completar o circuito de maneira rápida e se mantendo na pista de corrida, sem colidir o veículo. Este ambiente digital pode representar inclusive, de maneira simples, um ambiente real, no qual um robô deverá atingir um objetivo, evitando danos e colisões pelo percurso que deverá percorrer.
 
-### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
+---
 
-<!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
+### Algorítmos Genéticos
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
-
-Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod hendrerit leo erat et felis. Mauris faucibus odio est, non sagittis urna maximus ut. Suspendisse blandit ligula pellentesque tincidunt malesuada. Sed at ornare ligula, et aliquam dui. Cras a lectus id turpis accumsan pellentesque ut eget metus. Pellentesque rhoncus pellentesque est et viverra. Pellentesque non risus velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Algorítimos Genéticos são algorítimos inspirados no processo evolutivo biológico genético, onde os genes são passados de uma geração para a outra. Estes algorítimos realizam uma busca aleatória da melhor solução para um problema e aplica técnicas como seleção, reprodução e mutação para criar indivíduos melhores, reptindo estas técnicas através de gerações, para se encontrar o melhor resultado.
 
 ---
 
-Matrícula: 123.456.789
+### Redes Neurais Artificiais
+
+Redes Neurais Artificiais são modelos computacionais inspirados na estrutura neural biológica de organismos inteligentes. As Redes Neurais biológicas são compostas de células chamadas neurônios, que se comunicam através de conexões chamadas sinapses.
+As Redes Neurais Artificiais são compostas por diversos neurônios, que também são chamados de unidades de processamento ou nós. Os neurônios se conectam uns aos outros e cada conexão contém um peso. A eficácia de uma Rede Neural Artificial se dá pela interação destes neurônios e pelo ajuste destes pesos.
+
+---
+
+### Jogo de Corrida
+
+O Jogo Digital foi criado em Python com a blibioteca PyGame, que permite a criação de interfaces gráficas animadas para o usuário. O objetivo do jogo consiste em guiar um veículo através de uma pista de corrida, sem sair da pista e completando voltas no menor tempo possível. Sair da pista de corrida é considerado derrota e finaliza o jogo.
+ 
+O veículo utilizado contém diversos atributos, que são:
+•	Velocidade do Veículo
+•	Ângulo do Veículo em relação ao Mapa
+•	Ângulo das Rodas, para cálculo de curvas
+•	Doze (12) sensores de distância, que identificam obstáculos ao redor do veículo
+
+O conjunto destes atributos em um determinado tempo t é chamado de estado do veículo. Os estados serão gerados 15 vezes por segundo e serão disponibilizados ao sistema que irá controlar o veículo.
+O controle do veículo irá consistir em 4 ações distintas que são:
+•	Acelerar
+•	Frear
+•	Virar à direita
+•	Virar à esquerda
+
+---
+
+Matrícula: 182.477.014
 
 Pontifícia Universidade Católica do Rio de Janeiro
 
