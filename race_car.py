@@ -9,8 +9,6 @@ from os import path, listdir
 
 vec = pg.math.Vector2
 
-
-# In[2]:
 WIDTH, HEIGHT = 500, 400
 TITLE = 'LYRIO RACE - V_03'
 WHITE = (255, 255, 255)

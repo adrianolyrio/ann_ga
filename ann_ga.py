@@ -7,7 +7,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 print('Tensorflow Version:',tf.__version__)
 
-# Variables
+# Variables 
 W_PATH = 'weights/'
 W_NAME = 'weights_v01.hdf5'
 DF_PATH = 'weights/'
