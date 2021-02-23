@@ -47,6 +47,12 @@ O controle do veículo irá consistir em 4 ações distintas que são:
 - Virar à direita
 - Virar à esquerda
 
+### Executando o Código
+
+- Execute o Notebook <b>game_ga<b> para rodar o jogo e treinar o modelo
+- Para testar o Jogo, deixando o modelo treinado jogar ou para jogar utilizando o teclado, execute o Notebook <b>game_test<b>.
+Mais informações, dentro dos Notebooks.
+
 ---
 
 Matrícula: 182.477.014

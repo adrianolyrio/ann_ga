@@ -1,0 +1,10 @@
+install random
+install os
+install math
+install numpy
+install os
+install matplotlib
+install pandas
+install pygame
+install pytmx
+install tensorflow

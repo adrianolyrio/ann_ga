@@ -23,10 +23,6 @@ LIGHTGRAY = (211,211,211)
 
 FPS = 15
 
-ENEMY_DELAY = 900
-MOVE = 3
-S_WIDTH = 25
-W_WIDTH = 50
 TARGET_UPDATE = 60
 LOOP_TIME = 25000 #miliseconds
 TOTAL_DIST = 4000
@@ -158,10 +154,8 @@ class Game():
             return
         self.screen.fill(LIGHTBLUE)
         self.draw_text("GAME OVER", 48, WHITE, WIDTH / 2, HEIGHT / 4)
-        self.draw_text("Score: " + str(self.score), 22, WHITE, WIDTH / 2, HEIGHT / 2)
         pg.display.flip()
         self.wait_for_key()
-        self.running = False
         
     def draw_text(self, text, size, color, x, y, location='midtop'):
         font = pg.font.Font(self.font_name, size)
